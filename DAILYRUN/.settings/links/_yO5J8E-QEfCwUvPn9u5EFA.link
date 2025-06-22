@@ -1,0 +1,24 @@
+{
+  "itemId" : "_yO5J8E-QEfCwUvPn9u5EFA",
+  "contextList" : [ {
+    "contextName" : "Production",
+    "repoId" : "_9gyU8E-QEfCwUvPn9u5EFA",
+    "parameterList" : [ {
+      "id" : "_9heRcU-QEfCwUvPn9u5EFA",
+      "name" : "AUTH_KEY"
+    }, {
+      "id" : "_MiO64U-REfCwUvPn9u5EFA",
+      "name" : "SERVICE_ID"
+    } ]
+  }, {
+    "contextName" : "Sandbox",
+    "repoId" : "_9gyU8E-QEfCwUvPn9u5EFA",
+    "parameterList" : [ {
+      "id" : "_9heRcE-QEfCwUvPn9u5EFA",
+      "name" : "AUTH_KEY"
+    }, {
+      "id" : "_MiO64E-REfCwUvPn9u5EFA",
+      "name" : "SERVICE_ID"
+    } ]
+  } ]
+}

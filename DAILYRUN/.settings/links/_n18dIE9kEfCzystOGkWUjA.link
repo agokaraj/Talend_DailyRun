@@ -1,0 +1,18 @@
+{
+  "itemId" : "_n18dIE9kEfCzystOGkWUjA",
+  "contextList" : [ {
+    "contextName" : "Sandbox",
+    "repoId" : "_9gyU8E-QEfCwUvPn9u5EFA",
+    "parameterList" : [ {
+      "id" : "_9heRcE-QEfCwUvPn9u5EFA",
+      "name" : "AUTH_KEY"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_9gyU8E-QEfCwUvPn9u5EFA",
+    "parameterList" : [ {
+      "id" : "_9heRcU-QEfCwUvPn9u5EFA",
+      "name" : "AUTH_KEY"
+    } ]
+  } ]
+}

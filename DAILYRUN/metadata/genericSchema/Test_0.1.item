@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_J5XisBhQEfCXx9AZt_k5BQ" dataPackage="_J5XisRhQEfCXx9AZt_k5BQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_J5XisRhQEfCXx9AZt_k5BQ" dataManager="_J5XisBhQEfCXx9AZt_k5BQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_J5XishhQEfCXx9AZt_k5BQ" id="_J5W7oBhQEfCXx9AZt_k5BQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XisxhQEfCXx9AZt_k5BQ" name="BANNER_KEY" label="BANNER_KEY" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XitBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XitRhQEfCXx9AZt_k5BQ" name="SPRIDEN_LAST_NAME" label="SPRIDEN_LAST_NAME" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XithhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XitxhQEfCXx9AZt_k5BQ" name="SPRIDEN_FIRST_NAME" label="SPRIDEN_FIRST_NAME" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiuBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiuRhQEfCXx9AZt_k5BQ" name="SPRIDEN_MI" label="SPRIDEN_MI" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiuhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiuxhQEfCXx9AZt_k5BQ" name="SPBPERS_NAME_PREFIX" label="SPBPERS_NAME_PREFIX" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XivBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XivRhQEfCXx9AZt_k5BQ" name="SPBPERS_NAME_SUFFIX" label="SPBPERS_NAME_SUFFIX" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XivhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XivxhQEfCXx9AZt_k5BQ" name="V_MAILINGSTREET" label="V_MAILINGSTREET" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiwBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiwRhQEfCXx9AZt_k5BQ" name="SPRADDR_CITY" label="SPRADDR_CITY" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiwhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiwxhQEfCXx9AZt_k5BQ" name="SPRADDR_STAT_CODE" label="SPRADDR_STAT_CODE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XixBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XixRhQEfCXx9AZt_k5BQ" name="SPRADDR_ZIP" label="SPRADDR_ZIP" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XixhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XixxhQEfCXx9AZt_k5BQ" name="SPRADDR_CNTY_CODE" label="SPRADDR_CNTY_CODE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiyBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiyRhQEfCXx9AZt_k5BQ" name="HOMEPHONE" label="HOMEPHONE" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XiyhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XiyxhQEfCXx9AZt_k5BQ" name="GMU_EMAIL" label="GMU_EMAIL" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XizBhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XizRhQEfCXx9AZt_k5BQ" name="GENDER" label="GENDER" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5XizhhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5XizxhQEfCXx9AZt_k5BQ" name="SPBPERS_PREF_FIRST_NAME" label="SPBPERS_PREF_FIRST_NAME" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi0BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi0RhQEfCXx9AZt_k5BQ" name="O_PRONOUN" label="O_PRONOUN" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi0hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi0xhQEfCXx9AZt_k5BQ" name="O_VETERAN" label="O_VETERAN" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi1BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi1RhQEfCXx9AZt_k5BQ" name="SPRIDEN_ID" label="SPRIDEN_ID" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi1hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi1xhQEfCXx9AZt_k5BQ" name="O_YEAR_OF_BIRTH" label="O_YEAR_OF_BIRTH" length="20" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi2BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi2RhQEfCXx9AZt_k5BQ" name="O_MONTH_OF_BIRTH" label="O_MONTH_OF_BIRTH" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi2hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi2xhQEfCXx9AZt_k5BQ" name="SGBSTDN_PROGRAM_1" label="SGBSTDN_PROGRAM_1" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi3BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi3RhQEfCXx9AZt_k5BQ" name="SGBSTDN_COLL_CODE_1" label="SGBSTDN_COLL_CODE_1" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi3hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi3xhQEfCXx9AZt_k5BQ" name="STVCOLL_DESC" label="STVCOLL_DESC" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi4BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi4RhQEfCXx9AZt_k5BQ" name="SGBSTDN_DEGC_CODE_1" label="SGBSTDN_DEGC_CODE_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi4hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi4xhQEfCXx9AZt_k5BQ" name="SGBSTDN_MAJR_CODE_1" label="SGBSTDN_MAJR_CODE_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi5BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi5RhQEfCXx9AZt_k5BQ" name="SGBSTDN_MAJR_CODE_MINR_1" label="SGBSTDN_MAJR_CODE_MINR_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi5hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi5xhQEfCXx9AZt_k5BQ" name="SGBSTDN_MAJR_CODE_CONC_1" label="SGBSTDN_MAJR_CODE_CONC_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi6BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi6RhQEfCXx9AZt_k5BQ" name="SGBSTDN_LEVL_CODE" label="SGBSTDN_LEVL_CODE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi6hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi6xhQEfCXx9AZt_k5BQ" name="SGBSTDN_CAMP_CODE" label="SGBSTDN_CAMP_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi7BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi7RhQEfCXx9AZt_k5BQ" name="SGBSTDN_TERM_CODE_CTLG_1" label="SGBSTDN_TERM_CODE_CTLG_1" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi7hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi7xhQEfCXx9AZt_k5BQ" name="SGBSTDN_EXP_GRAD_DATE" label="SGBSTDN_EXP_GRAD_DATE" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi8BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi8RhQEfCXx9AZt_k5BQ" name="STVNATN_CODE" label="STVNATN_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi8hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi8xhQEfCXx9AZt_k5BQ" name="STVNATN_NATION" label="STVNATN_NATION" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi9BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi9RhQEfCXx9AZt_k5BQ" name="HONORS_CNT" label="HONORS_CNT" length="17" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi9hhQEfCXx9AZt_k5BQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J5Xi9xhQEfCXx9AZt_k5BQ" name="HONORS_CODES" label="HONORS_CODES" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J5Xi-BhQEfCXx9AZt_k5BQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

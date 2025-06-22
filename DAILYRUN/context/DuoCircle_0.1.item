@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_9gy8AE-QEfCwUvPn9u5EFA" name="Sandbox">
+    <contextParameter xmi:id="_9heRcE-QEfCwUvPn9u5EFA" comment="Customer_Key" name="AUTH_KEY" prompt="AUTH_KEY?" promptNeeded="false" type="id_Password" value="nuT9ZPJUetrGqJKrdkzFN9ctyLeXW28dAxpC"/>
+    <contextParameter xmi:id="_MiO64E-REfCwUvPn9u5EFA" comment="" name="SERVICE_ID" prompt="SERVICE_ID?" promptNeeded="false" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_9gy8AU-QEfCwUvPn9u5EFA" name="Production">
+    <contextParameter xmi:id="_9heRcU-QEfCwUvPn9u5EFA" comment="Customer_Key" name="AUTH_KEY" prompt="AUTH_KEY?" promptNeeded="false" type="id_Password" value="nuT9ZPJUetrGqJKrdkzFN9ctyLeXW28dAxpC"/>
+    <contextParameter xmi:id="_MiO64U-REfCwUvPn9u5EFA" comment="" name="SERVICE_ID" prompt="SERVICE_ID?" promptNeeded="false" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

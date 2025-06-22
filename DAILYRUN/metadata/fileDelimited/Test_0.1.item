@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Icq7MBhQEfCXx9AZt_k5BQ" name="Test" dataPackage="_IcriQBhQEfCXx9AZt_k5BQ" Server="Localhost 127.0.0.1" FilePath="D:/Talend Files/Banner Integration Files/Student Imports 10-24-2024/Student_Selected_P1.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_IcriQBhQEfCXx9AZt_k5BQ" name="default" dataManager="_Icq7MBhQEfCXx9AZt_k5BQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_IcriQRhQEfCXx9AZt_k5BQ" id="_ukkUwBhPEfCXx9AZt_k5BQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriQhhQEfCXx9AZt_k5BQ" label="BANNER_KEY" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriQxhQEfCXx9AZt_k5BQ" label="SPRIDEN_LAST_NAME" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriRBhQEfCXx9AZt_k5BQ" label="SPRIDEN_FIRST_NAME" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriRRhQEfCXx9AZt_k5BQ" label="SPRIDEN_MI" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriRhhQEfCXx9AZt_k5BQ" label="SPBPERS_NAME_PREFIX" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriRxhQEfCXx9AZt_k5BQ" label="SPBPERS_NAME_SUFFIX" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriSBhQEfCXx9AZt_k5BQ" label="V_MAILINGSTREET" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriSRhQEfCXx9AZt_k5BQ" label="SPRADDR_CITY" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriShhQEfCXx9AZt_k5BQ" label="SPRADDR_STAT_CODE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriSxhQEfCXx9AZt_k5BQ" label="SPRADDR_ZIP" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriTBhQEfCXx9AZt_k5BQ" label="SPRADDR_CNTY_CODE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriTRhQEfCXx9AZt_k5BQ" label="HOMEPHONE" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriThhQEfCXx9AZt_k5BQ" label="GMU_EMAIL" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriTxhQEfCXx9AZt_k5BQ" label="GENDER" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriUBhQEfCXx9AZt_k5BQ" label="SPBPERS_PREF_FIRST_NAME" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriURhQEfCXx9AZt_k5BQ" label="O_PRONOUN" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriUhhQEfCXx9AZt_k5BQ" label="O_VETERAN" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriUxhQEfCXx9AZt_k5BQ" label="SPRIDEN_ID" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriVBhQEfCXx9AZt_k5BQ" label="O_YEAR_OF_BIRTH" length="20" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriVRhQEfCXx9AZt_k5BQ" label="O_MONTH_OF_BIRTH" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriVhhQEfCXx9AZt_k5BQ" label="SGBSTDN_PROGRAM_1" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriVxhQEfCXx9AZt_k5BQ" label="SGBSTDN_COLL_CODE_1" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriWBhQEfCXx9AZt_k5BQ" label="STVCOLL_DESC" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriWRhQEfCXx9AZt_k5BQ" label="SGBSTDN_DEGC_CODE_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriWhhQEfCXx9AZt_k5BQ" label="SGBSTDN_MAJR_CODE_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriWxhQEfCXx9AZt_k5BQ" label="SGBSTDN_MAJR_CODE_MINR_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriXBhQEfCXx9AZt_k5BQ" label="SGBSTDN_MAJR_CODE_CONC_1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriXRhQEfCXx9AZt_k5BQ" label="SGBSTDN_LEVL_CODE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriXhhQEfCXx9AZt_k5BQ" label="SGBSTDN_CAMP_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriXxhQEfCXx9AZt_k5BQ" label="SGBSTDN_TERM_CODE_CTLG_1" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriYBhQEfCXx9AZt_k5BQ" label="SGBSTDN_EXP_GRAD_DATE" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriYRhQEfCXx9AZt_k5BQ" label="STVNATN_CODE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriYhhQEfCXx9AZt_k5BQ" label="STVNATN_NATION" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriYxhQEfCXx9AZt_k5BQ" label="HONORS_CNT" length="17" precision="16" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IcriZBhQEfCXx9AZt_k5BQ" label="HONORS_CODES" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
