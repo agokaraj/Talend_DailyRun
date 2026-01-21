@@ -106,29 +106,64 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="HTTPClient" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="200" posY="40">
+  <node componentName="HTTPClient" componentVersion="5" offsetLabelX="0" offsetLabelY="0" posX="200" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHTTPClient_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="aHR0cC1zdHVkaW8jSFRUUCNDbGllbnQ" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="NoAuth"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value="" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value="" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:muKYlKpA9TzMt/ou6WvMlemgbPeyNwlTt5LNCoTUY52lvr+9r/QmtCiMkfnQJhx4" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM" show="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="GET"/>
-    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.pathParams" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.queryParams" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:muKYlKpA9TzMt/ou6WvMlemgbPeyNwlTt5LNCoTUY52lvr+9r/QmtCiMkfnQJhx4"/>
+    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value=""/>
     <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer"/>
+    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey"/>
+    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP"/>
+    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="NoAuth"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.httpVersion" value="HTTP_1_1"/>
+    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
+    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="GET"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
+    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="5" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="5" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataset.pathParams" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataset.queryParams" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers">
       <elementValue elementRef="configuration.dataset.headers[].key" value="&quot;accept&quot;" id="0"/>
       <elementValue elementRef="configuration.dataset.headers[].value" value="application/json" id="1"/>
@@ -137,48 +172,11 @@
       <elementValue elementRef="configuration.dataset.headers[].value" value="context.AUTH_KEY" id="4"/>
       <elementValue elementRef="configuration.dataset.headers[].query" value="MAIN" id="5"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.body.params" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
-    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
-    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.keyValuePairs" show="false"/>
-    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
-    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
-    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
-    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonCastConfigurations" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonFilterConfigurations" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
     <elementParameter field="TABLE" name="configuration.uploadFileTable" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="3" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="3" show="false"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
@@ -223,32 +221,67 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="HTTPClient" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200">
+  <node componentName="HTTPClient" componentVersion="5" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHTTPClient_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="aHR0cC1zdHVkaW8jSFRUUCNDbGllbnQ" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:VMeFVcXsT/ywdUrbw+qPeJGYRVJt03ag+odlApk4ODkZMnbUB+CBMRWrBDHUf2fE"/>
+    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer"/>
+    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey"/>
+    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP"/>
+    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="NoAuth"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value="" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value="" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:VMeFVcXsT/ywdUrbw+qPeJGYRVJt03ag+odlApk4ODkZMnbUB+CBMRWrBDHUf2fE" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM" show="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="GET"/>
-    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services/{serviceId}/recipients"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services/{serviceId}/recipients"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.httpVersion" value="HTTP_1_1"/>
+    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
+    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="GET"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
+    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="5" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="5" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.pathParams">
       <elementValue elementRef="configuration.dataset.pathParams[].key" value="&quot;serviceId&quot;" id="0"/>
       <elementValue elementRef="configuration.dataset.pathParams[].value" value="context.SERVICE_ID" id="1"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.queryParams" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="true"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers">
       <elementValue elementRef="configuration.dataset.headers[].key" value="&quot;accept&quot;" id="0"/>
       <elementValue elementRef="configuration.dataset.headers[].value" value="application/json" id="1"/>
@@ -257,48 +290,11 @@
       <elementValue elementRef="configuration.dataset.headers[].value" value="context.AUTH_KEY" id="4"/>
       <elementValue elementRef="configuration.dataset.headers[].query" value="MAIN" id="5"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.body.params" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
-    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
-    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.keyValuePairs" show="false"/>
-    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
-    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
-    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
-    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonCastConfigurations" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonFilterConfigurations" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
     <elementParameter field="TABLE" name="configuration.uploadFileTable" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="3" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="3" show="false"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
@@ -407,33 +403,68 @@
       <column comment="" key="false" length="-1" name="status" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="HTTPClient" componentVersion="3" offsetLabelX="0" offsetLabelY="0" posX="640" posY="360">
+  <node componentName="HTTPClient" componentVersion="5" offsetLabelX="0" offsetLabelY="0" posX="640" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHTTPClient_3" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="aHR0cC1zdHVkaW8jSFRUUCNDbGllbnQ" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
+    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:mxfVd5Y5e8iMo0N46qOhKhvNnVoZvCjmZZGUkeees9Zg73KiUunXc1J2nNYN3Ot6"/>
+    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer"/>
+    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey"/>
+    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP"/>
+    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.type" value="NoAuth"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.headerName" value="" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.queryName" value="apikey" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.apiKey.prefix" value="" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataset.datastore.authentication.apiKey.token" value="enc:system.encryption.key.v1:mxfVd5Y5e8iMo0N46qOhKhvNnVoZvCjmZZGUkeees9Zg73KiUunXc1J2nNYN3Ot6" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.flow" value="CLIENT_CREDENTIAL" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.oauth20.authenticationType" value="FORM" show="false"/>
-    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="DELETE"/>
-    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services/{serviceId}/recipients/{.input.id}"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS"/>
     <elementParameter field="CHECK" name="configuration.dataset.hasPathParams" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataset.resource" value="/v1/services/{serviceId}/recipients/{.input.id}"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.httpVersion" value="HTTP_1_1"/>
+    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
+    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataset.methodType" value="DELETE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.base" value="https://api.duocircle.com"/>
+    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
+    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.authentication.apiKey.destination" value="HEADERS"/>
+    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="5" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="5" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataset.datastore.authentication.oauth20.params" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.pathParams">
       <elementValue elementRef="configuration.dataset.pathParams[].key" value="&quot;serviceId&quot;" id="0"/>
       <elementValue elementRef="configuration.dataset.pathParams[].value" value="context.SERVICE_ID" id="1"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.dataset.hasQueryParams" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.queryParams" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasHeaders" value="true"/>
     <elementParameter field="TABLE" name="configuration.dataset.headers">
       <elementValue elementRef="configuration.dataset.headers[].key" value="&quot;accept&quot;" id="0"/>
       <elementValue elementRef="configuration.dataset.headers[].value" value="application/json" id="1"/>
@@ -442,48 +473,11 @@
       <elementValue elementRef="configuration.dataset.headers[].value" value="context.AUTH_KEY" id="4"/>
       <elementValue elementRef="configuration.dataset.headers[].query" value="MAIN" id="5"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.dataset.hasBody" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.body.type" value="TEXT" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.body.params" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.format" value="JSON"/>
-    <elementParameter field="TEXT" name="configuration.dataset.dssl" value=""/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.returnedContent" value="BODY_ONLY"/>
-    <elementParameter field="CHECK" name="configuration.dataset.outputKeyValuePairs" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.forwardInput" value="false" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.keyValuePairs" show="false"/>
-    <elementParameter field="CHECK" name="configuration.downloadFile" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeHeaderName" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customHeaderName" value="Authorization" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.authentication.oauth20.customizeTokenPrefix" value="false" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.authentication.oauth20.customTokenPrefix" value="Bearer" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.connectionTimeout" value="30000"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.receiveTimeout" value="120000"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.bypassCertificateValidation" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.useProxy" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.datastore.proxyConfiguration.proxyType" value="HTTP" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.proxyConfiguration.proxyPort" value="443" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.datastore.hasRetry" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.backoff" value="500" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.factor" value="1" show="false"/>
-    <elementParameter field="TEXT" name="configuration.dataset.datastore.retry.maxAttempts" value="2" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.acceptRedirections" value="true"/>
-    <elementParameter field="TEXT" name="configuration.dataset.maxRedirectOnSameURL" value="3"/>
-    <elementParameter field="CHECK" name="configuration.dataset.onlySameHost" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.hasPagination" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.strategy" value="OFFSET_LIMIT" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.dataset.pagination.offsetLimitStrategyConfig.location" value="QUERY_PARAMETERS" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.jsonForceDouble" value="true"/>
-    <elementParameter field="CHECK" name="configuration.dataset.normalizeJson" value="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonCastConfigurations" show="false"/>
     <elementParameter field="TABLE" name="configuration.dataset.jsonFilterConfigurations" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.enforceNumberAsString" value="true" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.useCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.dataset.saveCookies" value="false"/>
-    <elementParameter field="CHECK" name="configuration.uploadFiles" value="false"/>
     <elementParameter field="TABLE" name="configuration.uploadFileTable" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.__version" value="3" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataset.datastore.__version" value="3" show="false"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
