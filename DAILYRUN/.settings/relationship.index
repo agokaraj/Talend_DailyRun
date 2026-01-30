@@ -1,5 +1,32 @@
 [ {
   "baseItem" : {
+    "id" : "_3UNLUP4CEfC_vcUyBnmq_g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_8x4jgATREfC3OvntVEeZBQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_PUiToP4KEfC_vcUyBnmq_g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_PwESsP4CEfC_vcUyBnmq_g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_yvmbsATQEfC3OvntVEeZBQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PwESsP4CEfC_vcUyBnmq_g - DWH_OPPORTUNITY",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_CVW5IAcBEfCuTvIxhIJlIg",
     "version" : "0.1",
     "type" : "job"

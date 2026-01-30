@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_PUvvAP4KEfC_vcUyBnmq_g" confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter xmi:id="_PUvvAf4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_AdditionalParams" prompt="DWH_ADV_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_PUvvAv4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_Password" prompt="DWH_ADV_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:89TXkQDZjvjyTUMC4dvV9oVS2fwZ9/WbPFfHrsn1cIFTQriRDsJ+bw=="/>
+    <contextParameter xmi:id="_PUvvA_4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_Server" prompt="DWH_ADV_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FNDTDW3P.mesa.gmu.edu"/>
+    <contextParameter xmi:id="_PUvvBP4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_ServiceName" prompt="DWH_ADV_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dwprod11"/>
+    <contextParameter xmi:id="_PUvvBf4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_Login" prompt="DWH_ADV_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dwh_adv"/>
+    <contextParameter xmi:id="_PUvvBv4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_Port" prompt="DWH_ADV_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="9321"/>
+    <contextParameter xmi:id="_PUvvB_4KEfC_vcUyBnmq_g" comment="" name="DWH_ADV_Schema" prompt="DWH_ADV_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWH_ADV"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_xWegQP4QEfCdfIEP74FOcg" confirmationNeeded="false" hide="false" name="Sandbox">
+    <contextParameter xmi:id="_xWegQf4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_AdditionalParams" prompt="DWH_ADV_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_xWegQv4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_Password" prompt="DWH_ADV_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MGNLIb0ieAg23xzT8WFptbah8q0dH9Sr5f8yeh+upMr110M="/>
+    <contextParameter xmi:id="_xWegQ_4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_Server" prompt="DWH_ADV_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FNDTDB4T.MESA.GMU.EDU"/>
+    <contextParameter xmi:id="_xWegRP4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_ServiceName" prompt="DWH_ADV_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FOZZIE19"/>
+    <contextParameter xmi:id="_xWegRf4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_Login" prompt="DWH_ADV_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dwh_adv"/>
+    <contextParameter xmi:id="_xWegRv4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_Port" prompt="DWH_ADV_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="9373"/>
+    <contextParameter xmi:id="_xWegR_4QEfCdfIEP74FOcg" comment="" name="DWH_ADV_Schema" prompt="DWH_ADV_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWH_ADV"/>
+  </talendfile:ContextType>
+</xmi:XMI>
