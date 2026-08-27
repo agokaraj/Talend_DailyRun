@@ -1,0 +1,86 @@
+{
+  "itemId" : "_KGn-YGaDEfGTAcTn1SNeHQ",
+  "contextList" : [ {
+    "contextName" : "Sandbox",
+    "repoId" : "_plDJYGjOEfGLs9vpQTw-BQ",
+    "parameterList" : [ {
+      "id" : "_plOvkWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth_clientId"
+    }, {
+      "id" : "_plOvkmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_userPassword_userId"
+    }, {
+      "id" : "_plOvk2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_keyStorePassword"
+    }, {
+      "id" : "_plOvlGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_sslProperties_keyStorePwd"
+    }, {
+      "id" : "_plOvlWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_subject"
+    }, {
+      "id" : "_plOvlmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_proxy_userPassword_password"
+    }, {
+      "id" : "_plOvl2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_userPassword_securityKey"
+    }, {
+      "id" : "_plOvmGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_sslProperties_keyStorePath"
+    }, {
+      "id" : "_plOvmWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth_tokenFile"
+    }, {
+      "id" : "_plOvmmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_proxy_port"
+    }, {
+      "id" : "_plOvm2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_proxy_host"
+    }, {
+      "id" : "_plOvnGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_certificateAlias"
+    }, {
+      "id" : "_plOvnWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_issuer"
+    }, {
+      "id" : "_plOvnmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_audience"
+    }, {
+      "id" : "_plOvn2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_keyStore"
+    }, {
+      "id" : "_plOvoGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth_callbackHost"
+    }, {
+      "id" : "_plOvoWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_timeout"
+    }, {
+      "id" : "_plOvomjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth_clientSecret"
+    }, {
+      "id" : "_plOvo2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth_callbackPort"
+    }, {
+      "id" : "_plOvpGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_apiVersion"
+    }, {
+      "id" : "_plOvpWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_userPassword_password"
+    }, {
+      "id" : "_plOvpmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_endpoint"
+    }, {
+      "id" : "_plOvp2jOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_proxy_userPassword_userId"
+    }, {
+      "id" : "_plOvqGjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_clientId"
+    }, {
+      "id" : "_plOvqWjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_oauth2JwtFlow_expirationTime"
+    }, {
+      "id" : "_plOvqmjOEfGLs9vpQTw-BQ",
+      "name" : "PatriotForce_Oauth_sessionDirectory"
+    } ]
+  } ]
+}
